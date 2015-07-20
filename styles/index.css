@@ -1,25 +1,34 @@
-.menu-container {
+.button-container {
     width: 520px;
     background: gray;
     overflow-y: auto;
+	margin:0 auto;
+	border-radius: 25px;
 }
 
 .button-container > a {
     width: 100px;
     height: 100px;
     float: left;
-    background: lightgray;   
+    background: url('./Images/orb.png');   
     margin: 15px;
+	border-radius: 25px;
+	text-align: center;
+	vertical-align: center;
 }
+
 .header-menu{
-    background:#0F0;
+    background:gray;
     width:520px;
     height:40px;
     line-height:40px;
     display: table;
-	margin: 10px;
+	margin:0 auto;
+	border-radius: 25px;
 }
 .header-button{
-    background:#F00;
+    background:lightgray;
     display: table-cell;
+	text-align: center;
+	margin:5px;
 }
