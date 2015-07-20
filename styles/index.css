@@ -1,5 +1,5 @@
 .button-container {
-    width: 520px;
+    width: 690px;
     background: gray;
     overflow-y: auto;
 	margin:0 auto;
@@ -7,8 +7,8 @@
 }
 
 .button-container > a {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     float: left;
     background: url('/Images/orb.png');   
     background-size: contain;
@@ -21,7 +21,7 @@
 
 .header-menu{
     background:gray;
-    width:520px;
+    width:690px;
     height:40px;
     line-height:40px;
     display: table;
