@@ -1,4 +1,4 @@
-.button-container {
+.menu-container {
     width: 520px;
     background: gray;
     overflow-y: auto;
@@ -10,4 +10,16 @@
     float: left;
     background: lightgray;   
     margin: 15px;
+}
+.header-menu{
+    background:#0F0;
+    width:520px;
+    height:40px;
+    line-height:40px;
+    display: table;
+	margin: 10px;
+}
+.header-button{
+    background:#F00;
+    display: table-cell;
 }
