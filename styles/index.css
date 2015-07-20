@@ -11,7 +11,7 @@
     height: 100px;
     float: left;
     background: url('/Images/orb.png');   
-    background-size: 100% 100%;
+    background-size: contain;
     background-repeat: no-repeat;
     margin: 15px;
 	border-radius: 25px;
