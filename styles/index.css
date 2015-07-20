@@ -10,7 +10,7 @@
     width: 100px;
     height: 100px;
     float: left;
-    background: url('./Images/orb.png');   
+    background: url('/Images/orb.png');   
     margin: 15px;
 	border-radius: 25px;
 	text-align: center;
