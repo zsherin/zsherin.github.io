@@ -72,6 +72,13 @@ greeny: B6A754
 text-align: center;
 
   position: relative;
+  border-style: solid;
+  border-width: 10px;
+  border-radius:25px;
+  background-color:#FFFFFF;
+  opacity:.4;
+  overflow:hidden;
+  z-index:10;
 }
 #header h1, #header h2
 {
@@ -84,6 +91,8 @@ font-size:25px;
 font-weight:bold;
 font-family:Arial, Helvetica, sans-serif;
 clear:both;
+  opacity:1;
+margin-bottom:5*%
 }
 #header h1
 {
@@ -113,6 +122,7 @@ body {
   position: relative; 
   overflow: hidden; 
   width: 80%;
+  max-width:650px;
 
 }
 
