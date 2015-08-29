@@ -1,36 +1,164 @@
 .button-container {
-    width: 690px;
-    background: gray;
+    width: 100%;
+	max-width: 100%;
     overflow-y: auto;
 	margin:0 auto;
-	border-radius: 25px;
+	
 }
-
 .button-container > a {
-    width: 200px;
-    height: 200px;
+    min-width: 20%;
+    max-width: 20%;
+    height: 120px;
     float: left;
-    background: url('/Images/orb.png');   
+    background: url('../Images/orb.png');   
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 15px;
-	border-radius: 25px;
+	margin-top:5px;
 	text-align: center;
 	vertical-align: center;
 }
+.square {
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-color:#1E1E1E;
+    overflow:hidden;
+	border-radius:25px;
+-webkit-transition: all 0.5s ease; 
+-moz-transition: all 0.5s ease;
+ -o-transition: all 0.5s ease; 
+	
+}
+.square:hover
+{
+/*Glow*/ -webkit-box-shadow: 0px 0px 40px rgba(255,255,255,0.8); 
+	 -moz-box-shadow: 0px 0px 40px rgba(255,255,255,0.8); 
+	 box-shadow: 0px 0px 40px rgba(255,255,255,0.8); 
+}
+.content {
+    position:absolute;
+    height:90%; /* = 100% - 2*5% padding */
+    width:90%; /* = 100% - 2*5% padding */
+    padding: 5%;
+    border-radius:100px;
+}
+.bg{
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+    color:#fff;
+}
+.img1{
+    background-image: url('https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg');
+}
+/*
+.button-container, .selected-image, .header-button {
+    -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    -webkit-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    -moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    -o-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+    transition: width 1s ease-in-out, left 1.5s ease-in-out;
+}
+darkest blue:293E6A
+medium blue:3A5897
+light blue: #74AAF7
+seafoam?: #77BA9B
+greeny: B6A754
+*/
+#header
+{
+text-align: center;
+
+  position: relative;
+}
+#header h1, #header h2
+{
+width:100%;
+float:left;
+position:relative;
+color:#3A5897;
+text-align:center;
+font-size:25px;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;
+clear:both;
+}
+#header h1
+{
+width:100%;
+position:relative;
+color:#293E6A;
+font-size:30px;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000000;
+    #background-color: #273B65;
+	background-color:#B6A754;
+	background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+.content-container{
+
+  margin: 0 auto 0 auto; 
+  display: block; 
+  height:auto;
+  position: relative; 
+  overflow: hidden; 
+  width: 80%;
+
+}
 
 .header-menu{
-    background:gray;
-    width:690px;
+	max-width:100%;
+    width:100%;
     height:40px;
     line-height:40px;
-    display: table;
 	margin:0 auto;
 	border-radius: 25px;
 }
+
 .header-button {
+	width:30%;
+	float:left;
     background:lightgray;
-    display: table-cell;
+	color:#74AAF7;
+	font-size:25px;
+	text-decoration:none;
 	text-align: center;
-	margin:5px;
+	margin:1.66%;
+	background-color: #3A5897;
+	 
+	border-radius: 15px;
 }
+.text-header { 
+width: 100%; 
+line-height: 0px; 
+color: transparent; 
+font-size: 25px; 
+font-family:Arial, Helvetica, sans-serif;
+font-weight: bolder; 
+text-transform: uppercase; 
+-webkit-transition: all 0.5s ease; 
+-moz-transition: all 0.5s ease;
+ text-align:center;
+ -o-transition: all 0.5s ease; 
+ } 
+.texter { 
+width: 100%; 
+line-height: 0px; 
+color: transparent; 
+font-size: 25px; 
+font-family:Arial, Helvetica, sans-serif;
+-webkit-transition: all 0.5s ease; 
+-moz-transition: all 0.5s ease;
+ -o-transition: all 0.5s ease; 
+ text-align:center;
+ } 
