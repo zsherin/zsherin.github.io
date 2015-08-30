@@ -1,6 +1,6 @@
 .button-container {
-    width: 100%;
-	max-width: 100%;
+    width: 85%;
+	max-width: 500px%;
     overflow-y: auto;
 	margin:0 auto;
 	
@@ -72,11 +72,9 @@ greeny: B6A754
 text-align: center;
 
   position: relative;
-  border-style: solid;
-  border-width: 10px;
-  border-radius:25px;
-  background-color:#FFFFFF;
-  opacity:.4;
+  #border-style: solid;
+  #border-width: 10px;
+  #border-radius:25px;
   overflow:hidden;
   z-index:10;
 }
@@ -100,6 +98,9 @@ width:100%;
 position:relative;
 color:#293E6A;
 font-size:30px;
+border-bottom:solid;
+border-bottom-width:2px;
+border-spacing:2px;
 }
 
 
@@ -118,12 +119,15 @@ body {
 
   margin: 0 auto 0 auto; 
   display: block; 
-  height:auto;
   position: relative; 
   overflow: hidden; 
   width: 80%;
   max-width:650px;
-
+  #border-radius:25px;
+  
+  #border-style: solid;
+  #border-width: 10px;
+  #background-color:#D7D0AB;
 }
 
 .header-menu{
