@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="../styles/slower.css">
+<title>Photogrammetry Dome</title>
+
+
+</head>
+
+<body>
+	
+	<div class="content-container">
+	<div id="header">
+        	<a class="back" href="../index.html">Back</a>
+			<h1>From Reality to Rendering System</h1>
+			<h2>What: LED Dome</h2>
+			<h2>When: Summer 2014</h2>
+			<h2>Where: Floored, NYC</h2>
+			</br>
+            <img class="youtube" src="../Images/domebanner.PNG" frameborder="0" allowfullscreen />
+      </div>
+		<p class="paragraph">
+			For this project, I worked with another intern at <a   href="http://www.floored.com">Floored</a> to create a system for bringing architectural materials in the real world to their rendering system. We started with a cardboard box containing four LEDs, and prototyped up to the dome above. This dome was entirely handmade: we bought parts for building a geodesic dome, covered it in over 90 1-Watt LEDs, soldered some simple LED current drivers, and then wired the whole thing between a bunch of shift registers and an Arduino Microcontroller.
+		</p>
+		<p class= "paragraph">
+			The result of all this work is visible above: an enormous, brilliant, dome. It was totally worth spending an entire day heating and bending PVC pipes. The dome uses techniques from <a href="http://ict.usc.edu/pubs/Rapid%20Acquisition%20of%20Specular%20and%20Diffuse%20Normal%20Maps%20from%20Polarized%20Spherical%20Gradient%20Illumination.pdf"> this paper</a> to not only collect color information from an object, but also geometric information (the surface normals). It flashes several different light patterns onto the object, then combines the images to produce diffuse, gloss, and normal maps that are used by 3D rendering engines. Instead of spending hours as an artist trying to come up with the perfect replica of a real-world object, this dome allows for a rapid reconstruction of simple materials.
+		</p>
+		<p class= "paragraph">
+			Of course, after building this very complicated and difficult dome, we later discovered that this technique works best for objects that are spherical in nature, like the human head. For our purposes, when using architectural materials, most of them are essentially flat. By utilising a flat panel of LEDs (LED strips side by side), we could create more effective patterns across an object, without the complicated dome structure. Interesting research, and useful to know for building a homebrew version.
+		</p>
+	</div>
+</body>
