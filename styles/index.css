@@ -67,6 +67,12 @@ light blue: #74AAF7
 seafoam?: #77BA9B
 greeny: B6A754
 */
+h3
+{
+	text-align: center;
+
+  position: relative;
+}
 #header
 {
 text-align: center;

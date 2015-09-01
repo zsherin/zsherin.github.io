@@ -35,6 +35,17 @@
 			console.log(cw);
 			$(this).css({'background-image':'url(' + images[cw] + ')'});
 		}).get();
+		function is_touch_device() {
+			return 'ontouchstart' in window // works on most browsers 
+				|| 'onmsgesturechange' in window; // works on ie10
+		};
+		 //Set everything up for a touchscreen
+			 console.log("heyo");
+		 if(!is_touch_device())
+		 {
+			 console.log("heyo");
+			 $("#headsup").css("display","none");
+		 }
 		$(".square").mouseenter(function()
 		{
 			//$("#stretch-img").attr('src',"./Images/stretch2.png");
