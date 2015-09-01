@@ -28,11 +28,9 @@
 					"The vrmfa is a daily constructed virtual museum using art drawn from the website DeviantArt. It's built for use with the Google Cardboard, to lower the barrier to entry for virtual reality. It is an attempt to allow anyone with a phone to access a museum experience, and a rebuke of the classical standards that determines what art appears in museums.",];
 		$(".texter").on('transitionend webkitTransitionEnd', function(e){
         // Callback function
-			console.log("hey");
     });
 		var listWidth = $('.square').map(function(){
 			var cw = $(this).attr("index");
-			console.log(cw);
 			$(this).css({'background-image':'url(' + images[cw] + ')'});
 		}).get();
 		function is_touch_device() {
@@ -40,14 +38,19 @@
 				|| 'onmsgesturechange' in window; // works on ie10
 		};
 		 //Set everything up for a touchscreen
-			 console.log("heyo");
-		 if(!is_touch_device())
+		 if(is_touch_device())
 		 {
-			 console.log("heyo");
+			 var listy = $(".content").css("display","none");
+		 }
+		 else
+		 {
 			 $("#headsup").css("display","none");
 		 }
+		 var lastIndex=0;
 		$(".square").mouseenter(function()
 		{
+			if(!is_touch_device())
+			{
 			//$("#stretch-img").attr('src',"./Images/stretch2.png");
 			//$("#stretch-img").animate({height: 400, width: 250});
 			
@@ -58,6 +61,27 @@
 			$(".text-header").text(titles[$(this).attr("index")]);
 			$(".text-header").css({'line-height':'35px'});
 			$(".text-header").css({'color':'#3A5897'});
+			/*$('html, body').animate({
+				scrollTop: $(document).height()
+				}, 'slow');
+			*/
+			}
+		});
+		$(".square").click(function()
+		{
+			//$("#stretch-img").attr('src',"./Images/stretch2.png");
+			//$("#stretch-img").animate({height: 400, width: 250});
+			
+			$("#content-"+lastIndex).css("display","none");
+			$(".texter").text(texts[$(this).attr("index")]);
+			$(".texter").css({'line-height':'35px'});
+			$(".texter").css({'color':'#3A5897'});
+			
+			$("#content-"+$(this).attr("index")).css("display","initial");
+			$(".text-header").text(titles[$(this).attr("index")]);
+			$(".text-header").css({'line-height':'35px'});
+			$(".text-header").css({'color':'#3A5897'});
+			lastIndex = $(this).attr("index");
 			/*$('html, body').animate({
 				scrollTop: $(document).height()
 				}, 'slow');
