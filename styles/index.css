@@ -70,7 +70,8 @@ greeny: B6A754
 h4
 {
 	text-align: center;
-	font-size: 22px;
+	font-size:22px;
+	width:100%;
 	position: relative;
 }
 #header
