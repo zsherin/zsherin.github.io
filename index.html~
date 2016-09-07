@@ -38,28 +38,28 @@
 					<a class="content" id ="content-1" href="pages/einstein.html">
 					</a>
 				</div>
-				<div class="square bg" index =2>
-					<a class="content" id ="content-2" href="pages/slower.html">
+				<div class="square bg" index =1>
+					<a class="content" id ="content-1" href="pages/slower.html">
 					</a>
 				</div>
-				<div class="square bg" index=3>
-					<a class="content" id ="content-3" href="pages/mars.html">
+				<div class="square bg" index=2>
+					<a class="content" id ="content-2" href="pages/mars.html">
 					</a>
 				</div>
-				<div class="square bg" index =4>
-					<a class="content" id ="content-4" href="pages/dome.html">
+				<div class="square bg" index =3>
+					<a class="content" id ="content-3" href="pages/dome.html">
 					</a>
 				</div>
-				<div class="square bg"index =5>
-					<a class="content" id ="content-5" href="pages/sidekick.html">
+				<div class="square bg"index =4>
+					<a class="content" id ="content-4" href="pages/sidekick.html">
+					</a>
+				</div>
+				<div class="square bg" index =5>
+					<a class="content" id ="content-5" href="pages/finite.html">
 					</a>
 				</div>
 				<div class="square bg" index =6>
-					<a class="content" id ="content-6" href="pages/finite.html">
-					</a>
-				</div>
-				<div class="square bg" index =7>
-					<a class="content" id ="content-7" href="pages/vrmfa.html">
+					<a class="content" id ="content-6" href="pages/vrmfa.html">
 					</a>
 				</div>
 			</div>

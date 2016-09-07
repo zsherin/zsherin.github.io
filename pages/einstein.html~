@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="../styles/slower.css">
+<title>Einstein's Playground</title>
+
+
+</head>
+
+<body>
+	
+	<div class="content-container">
+	<div id="header">
+        	<a class="back" href="../index.html">Back</a>
+			<h1>A Slower Speed of Light</h1>
+			<h2>What: Full Dome Master's Thesis</h2>
+			<h2>When: 2015-2016</h2>
+			<h2>Where: MIT Game Lab</h2>
+			</br>
+            <img class="youtube" src="../Images/domebanner.PNG" frameborder="0" allowfullscreen />
+      </div>
+		<p class="paragraph">
+			Based on the OpenRelativity engine, <i> Einstein's Playground</i> is my Master's thesis, originally produced for the Boston Museum of Science Charles Hayden Planetarium. It is a full dome projected experience and, unlike many other full dome experiences, it is fully interactive. While one presenter spoke to the audience and answered questions (in this case the fantastic <a href="https://msu.edu/user/kortemey/">Gerd Kortemeyer</a>), the other presenter "drives" the game and activates each of the several effects.
+		</p>
+		<p class= "paragraph">
+			 This interactive approach allows the presenters to first teach the basics of special relativity to the participants, and then take their questions. Whenever a question comes up that asks "what happens if..." the presenters can perform that action in the game, letting the participants form theories and an understanding of the material that they can immediately test. This work has been presented once at the Boston Museum of Science, and is scheduled again for the Meaningful Play conference. It is nominated for a Science Media Award in the Interactive category from the <a href="http://www.sciencemediasummit.org/2016-media-competition.html">Jackson Hole Film Festival</a>.
+		</p>
+	</div>
+</body>
