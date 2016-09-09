@@ -90,7 +90,7 @@ text-align: center;
 width:100%;
 float:left;
 position:relative;
-color:#DDDDDD;
+color:#EEEEEE;
 text-align:center;
 font-size:25px;
 font-weight:bold;
@@ -103,7 +103,7 @@ margin-bottom:5*%
 {
 width:100%;
 position:relative;
-color:#DDDDDD;
+color:#EEEEEE;
 font-size:30px;
 border-bottom:solid;
 border-bottom-width:2px;
