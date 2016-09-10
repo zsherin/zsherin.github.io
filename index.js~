@@ -63,7 +63,7 @@
 			
 			$(".text-header").text(titles[$(this).attr("index")]);
 			$(".text-header").css({'line-height':'35px'});
-			$(".text-header").css({'color':'#3A5897'});
+			$(".text-header").css({'color':'#EEEEEE'});
 			/*$('html, body').animate({
 				scrollTop: $(document).height()
 				}, 'slow');
