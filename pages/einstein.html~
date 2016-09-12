@@ -18,8 +18,8 @@
 			<h2>When: 2015-2016</h2>
 			<h2>Where: MIT Game Lab</h2>
 			</br>
-            <img class="youtube" src="../Images/domebanner.PNG" frameborder="0" allowfullscreen />
-      </div>
+            <iframe src="https://player.vimeo.com/video/179795817" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/179795817">Einsteins Playground Trailer</a> from <a href="https://vimeo.com/jhwff">Jackson Hole WILD</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 		<p class="paragraph">
 			Based on the OpenRelativity engine, <i> Einstein's Playground</i> is my Master's thesis, originally produced for the Boston Museum of Science Charles Hayden Planetarium. It is a full dome projected experience and, unlike many other full dome experiences, it is fully interactive. While one presenter spoke to the audience and answered questions (in this case the fantastic <a href="https://msu.edu/user/kortemey/">Gerd Kortemeyer</a>), the other presenter "drives" the game and activates each of the several effects.
 		</p>

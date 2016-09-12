@@ -21,7 +21,7 @@
 					"./Images/hololens.jpg",
 					"./Images/finite.jpg",
 					"./Images/vrmfa.PNG"];
-		var texts =["Who am I? I went to MIT from 2011-2015 for a degree in Electrical Engineering and Computer Science, and finished a Master's in 2016. Click through to view my resume, if you're interested.",
+		var texts =["Who am I? I went to MIT from 2011-2015 for a degree in Electrical Engineering and Computer Science, and finished a Master's in the same in 2016. Click through to view my resume, if you're interested.",
 		            "My Master's thesis, a planetarium dome projected experience for understanding special relativity. Nominated for a Science Media Award, it lets participants test their understanding in an entertaining and simple environment.",
 					"This game simulates the effects of traveling near the speed of light, while remaining accessible and engaging to a wider audience.",
 					"The Virtual Mars Project uses an Oculus Rift and a Vicon motion tracking system to place the user on Mars and let them walk around the planet. The virtual experience was found to be far better for mission planning, collaboration and understanding of Martian terrain than the previously used panorama method.",

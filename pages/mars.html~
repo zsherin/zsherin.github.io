@@ -24,7 +24,7 @@
 			My coworker and I started this project at JPL's Opslab for a simple reason: we wanted to walk on Mars. By combining a motion capture system with an Oculus Rift, we enabled users to physically walk and translate their movements to the virtual world. Using real data from the Mars Science Laboratory (Curiosity), we reconstructed a location on Mars from stereo imagery. This was created mostly between myself and another intern at the Opslab, who wrote a brilliant parallax mapping scheme to increase the realism of the environment.
 		</p>
 		<p class= "paragraph">
-			 The Opslab does a ton of very interesting work, particularly the Human Interfaces group, who apply new technology to making space travel more intuitive. If you have a moment, I strongly suggest checking them out at <a href="http://opslab.jpl.nasa.gov/"> their website</a>. There, you can find some videos explaining OnSight, the project that grew out of this prototype and has gone on to become an incredible piece of technology, not to mention a beautiful tool for space exploration.
+			 The Opslab does a ton of very interesting work, particularly the Human Interfaces group that tries to apply new technology to making space travel more intuitive. If you have a moment, I strongly suggest checking them out at <a href="http://opslab.jpl.nasa.gov/"> their website</a>. There, you can find some videos explaining OnSight, the project that grew out of this prototype and has gone on to become an incredible piece of technology, not to mention a beautiful tool for space exploration.
 		</p>
 	</div>
 </body>

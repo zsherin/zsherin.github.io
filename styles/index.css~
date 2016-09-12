@@ -73,6 +73,7 @@ h4
 	font-size:22px;
 	width:100%;
 	position: relative;
+	color:#DDDDDD;
 }
 #header
 {
@@ -90,7 +91,7 @@ text-align: center;
 width:100%;
 float:left;
 position:relative;
-color:#EEEEEE;
+color:#DDDDDD;
 text-align:center;
 font-size:25px;
 font-weight:bold;
@@ -99,17 +100,23 @@ clear:both;
   opacity:1;
 margin-bottom:5*%
 }
+#header h3
+{
+color:#DDDDDD;
+}
 #header h1
 {
 width:100%;
 position:relative;
-color:#EEEEEE;
+color:#DDDDDD;
 font-size:30px;
 border-bottom:solid;
 border-bottom-width:2px;
 border-spacing:2px;
 }
-
+iframe p {
+color:#DDDDDD;
+}
 
 body {
 	margin: 0;
@@ -119,8 +126,8 @@ body {
 	color: #000000;
     #background-color: #273B65;
 	#background-color:#B6A754;
-	background-color:#6D7993;
-	background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
+	background-color:#1A1B1D;
+	#background-image: url(http://www.transparenttextures.com/patterns/45-degree-fabric-light.png);
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 .content-container{
@@ -164,7 +171,7 @@ body {
 width: 100%; 
 line-height: 0px; 
 color: transparent; 
-font-size: 25px; 
+font-size: 22px; 
 font-family:Arial, Helvetica, sans-serif;
 font-weight: bolder; 
 text-transform: uppercase; 
@@ -177,7 +184,7 @@ text-transform: uppercase;
 width: 100%; 
 line-height: 0px; 
 color: transparent; 
-font-size: 25px; 
+font-size: 20px; 
 font-family:Arial, Helvetica, sans-serif;
 -webkit-transition: all 0.5s ease; 
 -moz-transition: all 0.5s ease;
