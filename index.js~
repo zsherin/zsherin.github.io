@@ -78,12 +78,12 @@
 			$("#content-"+lastIndex).css("display","none");
 			$(".texter").text(texts[$(this).attr("index")]);
 			$(".texter").css({'line-height':'35px'});
-			$(".texter").css({'color':'#3A5897'});
+			$(".texter").css({'color':'#EEEEEE'});
 			
 			$("#content-"+$(this).attr("index")).css("display","initial");
 			$(".text-header").text(titles[$(this).attr("index")]);
 			$(".text-header").css({'line-height':'35px'});
-			$(".text-header").css({'color':'#3A5897'});
+			$(".text-header").css({'color':'#EEEEEE'});
 			lastIndex = $(this).attr("index");
 			/*$('html, body').animate({
 				scrollTop: $(document).height()
