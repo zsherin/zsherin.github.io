@@ -25,7 +25,7 @@
     margin:1.66%;
     background-color:#1E1E1E;
     overflow:hidden;
-	border-radius:25px;
+	#border-radius:25px;
 -webkit-transition: all 0.5s ease; 
 -moz-transition: all 0.5s ease;
  -o-transition: all 0.5s ease; 
@@ -42,7 +42,7 @@
     height:90%; /* = 100% - 2*5% padding */
     width:90%; /* = 100% - 2*5% padding */
     padding: 5%;
-    border-radius:100px;
+    #border-radius:100px;
 }
 .bg{
     background-position:center center;
@@ -149,7 +149,7 @@ body {
     height:40px;
     line-height:40px;
 	margin:0 auto;
-	border-radius: 25px;
+	#border-radius: 25px;
 }
 
 .header-button {
@@ -163,7 +163,7 @@ body {
 	margin:1.66%;
 	background-color: #3A5897;
 	 
-	border-radius: 15px;
+	#border-radius: 15px;
 }
 .text-header { 
 width: 100%; 
