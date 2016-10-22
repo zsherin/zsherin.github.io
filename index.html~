@@ -15,7 +15,7 @@
 	<div class="content-container">
 		<div id="header">
         	<h1>Zach Sherin</h1>
-			<h3>Contact: zarrro45@gmail.com</h3>
+			<h3>Contact: zachary.sherin@gmail.com</h3>
             <h2>I'm a software developer and electrical engineer with a particular love of virtual reality and games work. Below are some of my favorite previous projects. </h2>
       </div>
 		<h4 id="headsup">(Touch once to show blurb, once more for the project page)</h4>
@@ -35,31 +35,35 @@
 					</a>
 				</div>
 				<div class="square bg" index =1>
-					<a class="content" id ="content-1" href="pages/einstein.html">
+					<a class="content" id ="content-1" href="pages/pitchpaint.html">
+					</a>
+				</div>
+				<div class="square bg" index =1>
+					<a class="content" id ="content-2" href="pages/einstein.html">
 					</a>
 				</div>
 				<div class="square bg" index =2>
-					<a class="content" id ="content-2" href="pages/slower.html">
+					<a class="content" id ="content-3" href="pages/slower.html">
 					</a>
 				</div>
 				<div class="square bg" index=3>
-					<a class="content" id ="content-3" href="pages/mars.html">
+					<a class="content" id ="content-4" href="pages/mars.html">
 					</a>
 				</div>
 				<div class="square bg" index =4>
-					<a class="content" id ="content-4" href="pages/dome.html">
+					<a class="content" id ="content-5" href="pages/dome.html">
 					</a>
 				</div>
 				<div class="square bg"index =5>
-					<a class="content" id ="content-5" href="pages/sidekick.html">
+					<a class="content" id ="content-6" href="pages/sidekick.html">
 					</a>
 				</div>
 				<div class="square bg" index =6>
-					<a class="content" id ="content-6" href="pages/finite.html">
+					<a class="content" id ="content-7" href="pages/finite.html">
 					</a>
 				</div>
 				<div class="square bg" index =7>
-					<a class="content" id ="content-7" href="pages/vrmfa.html">
+					<a class="content" id ="content-8" href="pages/vrmfa.html">
 					</a>
 				</div>
 			</div>
